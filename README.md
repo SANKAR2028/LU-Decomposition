@@ -24,6 +24,20 @@ get input from the user
 Step 4:
 print result 
 
+ii)
+Step 1: Start: Import the required libraries (numpy and scipy.linalg) and input matrices A (coefficients) and B (constants).
+
+
+Step 2: LU Factorization: Use lu_factor(A) to decompose matrix A into its L (lower) and U (upper) triangular matrices.
+
+
+Step 3: Solve the System: Use lu_solve((lu, pivot), B) to find the solution vector X.
+
+
+Step 4 : Display Result: Print the computed solution X.
+
+
+
 ## Program:
 (i) To find the L and U matrix
 ```
